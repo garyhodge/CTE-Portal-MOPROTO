@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="46ef7529-9117-4934-b93c-d2ce40bd17c0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://proto.ctemo.appius.co.uk/Services/ComputeService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ComputeService.wsdl" MetadataType="Wsdl" ID="55531d07-962b-4ba9-8896-e2b4f8959234" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/ComputeService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ComputeService.xsd" MetadataType="Schema" ID="af28a2a9-e1a0-4109-97f6-129accf3e65d" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/ComputeService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ComputeService.disco" MetadataType="Disco" ID="bd50d016-52d2-46da-bd0e-6d3dd8b081d1" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/ComputeService.svc?disco" />
+    <MetadataFile FileName="ComputeService1.wsdl" MetadataType="Wsdl" ID="e5f680e4-1a84-4fdf-bb17-551fa46ec488" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/ComputeService.svc?wsdl" />
+    <MetadataFile FileName="ComputeService1.xsd" MetadataType="Schema" ID="52c8c5ce-4542-416d-a269-bb52ef0412c8" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/ComputeService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

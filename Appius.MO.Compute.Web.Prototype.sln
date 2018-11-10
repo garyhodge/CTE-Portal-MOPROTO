@@ -1,0 +1,173 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appication", "Appication", "{C2CAB9E9-9714-4F19-B84B-7AEB4239E2BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{82FF0628-942E-438C-9477-6336975A7046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.MOCompute.Web.Prototype", "Application\Appius.MOCompute.Web.Prototype\Appius.MOCompute.Web.Prototype.csproj", "{0585F661-5FE1-45EF-9A8A-1A6205F78205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.MOCompute.Client.Prototype", "Framework\Appius.MOCompute.Client.Prototype\Appius.MOCompute.Client.Prototype.csproj", "{7735E073-4978-4749-9B74-38767C57F180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.MOCompute.Services.Prototype", "Framework\Appius.MOCompute.Services.Prototype\Appius.MOCompute.Services.Prototype.csproj", "{2763BA15-7BB0-4013-BFE8-A1AD91102B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Azure.Configuration", "Framework\Appius.Azure.Configuration\Appius.Azure.Configuration.csproj", "{BF3174BC-BC5D-4B80-BC08-CBFE6626911F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Azure.Data", "Framework\Appius.Azure.Data\Appius.Azure.Data.csproj", "{8CE2ACA5-8122-4136-A305-B57B6ADADAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Azure.Storage", "Framework\Appius.Azure.Storage\Appius.Azure.Storage.csproj", "{77CB9CE8-6F55-4C51-B147-6B9364DD5C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Core", "Framework\Appius.Core\Appius.Core.csproj", "{53574B84-C390-4E73-AE2F-F122FD4D0BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Mvc", "Framework\Appius.Mvc\Appius.Mvc.csproj", "{E2E0770E-B3C8-424E-872F-4711DF846782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Azure", "Framework\Appius.Azure\Appius.Azure.csproj", "{3DEFE23F-64E6-442D-8DED-87BA538625EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AA85F972-FF13-47AB-9320-B206360FE267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.MOCalculator.Web.Prototype", "Tests\Appius.MOCalculator.Web.Prototype\Appius.MOCalculator.Web.Prototype.csproj", "{5A5D954A-3A0E-4F72-B943-43342687E0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.MOCompute.UnitTests", "Tests\Appius.MOCompute.UnitTests\Appius.MOCompute.UnitTests.csproj", "{7075CB38-A570-4894-AC65-DF2634D2866A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.MOCompute.Services.Client.Prototype", "Framework\Appius.MOCompute.Services.Client.Prototype\Appius.MOCompute.Services.Client.Prototype.csproj", "{1DA19031-A66B-4DA2-8619-33E4F20B2E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appius.Azure.Storage.Client", "Framework\Appius.Azure.Storage.Client\Appius.Azure.Storage.Client.csproj", "{0872B9EF-2BE7-4484-9925-856F924BC530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0585F661-5FE1-45EF-9A8A-1A6205F78205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0585F661-5FE1-45EF-9A8A-1A6205F78205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0585F661-5FE1-45EF-9A8A-1A6205F78205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0585F661-5FE1-45EF-9A8A-1A6205F78205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7735E073-4978-4749-9B74-38767C57F180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7735E073-4978-4749-9B74-38767C57F180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7735E073-4978-4749-9B74-38767C57F180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7735E073-4978-4749-9B74-38767C57F180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2763BA15-7BB0-4013-BFE8-A1AD91102B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2763BA15-7BB0-4013-BFE8-A1AD91102B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2763BA15-7BB0-4013-BFE8-A1AD91102B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2763BA15-7BB0-4013-BFE8-A1AD91102B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3174BC-BC5D-4B80-BC08-CBFE6626911F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3174BC-BC5D-4B80-BC08-CBFE6626911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3174BC-BC5D-4B80-BC08-CBFE6626911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3174BC-BC5D-4B80-BC08-CBFE6626911F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE2ACA5-8122-4136-A305-B57B6ADADAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE2ACA5-8122-4136-A305-B57B6ADADAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE2ACA5-8122-4136-A305-B57B6ADADAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE2ACA5-8122-4136-A305-B57B6ADADAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CB9CE8-6F55-4C51-B147-6B9364DD5C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CB9CE8-6F55-4C51-B147-6B9364DD5C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CB9CE8-6F55-4C51-B147-6B9364DD5C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CB9CE8-6F55-4C51-B147-6B9364DD5C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53574B84-C390-4E73-AE2F-F122FD4D0BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53574B84-C390-4E73-AE2F-F122FD4D0BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53574B84-C390-4E73-AE2F-F122FD4D0BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53574B84-C390-4E73-AE2F-F122FD4D0BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E0770E-B3C8-424E-872F-4711DF846782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E0770E-B3C8-424E-872F-4711DF846782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E0770E-B3C8-424E-872F-4711DF846782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E0770E-B3C8-424E-872F-4711DF846782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEFE23F-64E6-442D-8DED-87BA538625EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEFE23F-64E6-442D-8DED-87BA538625EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEFE23F-64E6-442D-8DED-87BA538625EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEFE23F-64E6-442D-8DED-87BA538625EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5D954A-3A0E-4F72-B943-43342687E0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5D954A-3A0E-4F72-B943-43342687E0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5D954A-3A0E-4F72-B943-43342687E0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5D954A-3A0E-4F72-B943-43342687E0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7075CB38-A570-4894-AC65-DF2634D2866A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7075CB38-A570-4894-AC65-DF2634D2866A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7075CB38-A570-4894-AC65-DF2634D2866A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7075CB38-A570-4894-AC65-DF2634D2866A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA19031-A66B-4DA2-8619-33E4F20B2E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA19031-A66B-4DA2-8619-33E4F20B2E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA19031-A66B-4DA2-8619-33E4F20B2E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA19031-A66B-4DA2-8619-33E4F20B2E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0872B9EF-2BE7-4484-9925-856F924BC530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0872B9EF-2BE7-4484-9925-856F924BC530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0872B9EF-2BE7-4484-9925-856F924BC530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0872B9EF-2BE7-4484-9925-856F924BC530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0585F661-5FE1-45EF-9A8A-1A6205F78205} = {C2CAB9E9-9714-4F19-B84B-7AEB4239E2BC}
+		{7735E073-4978-4749-9B74-38767C57F180} = {82FF0628-942E-438C-9477-6336975A7046}
+		{2763BA15-7BB0-4013-BFE8-A1AD91102B01} = {82FF0628-942E-438C-9477-6336975A7046}
+		{BF3174BC-BC5D-4B80-BC08-CBFE6626911F} = {82FF0628-942E-438C-9477-6336975A7046}
+		{8CE2ACA5-8122-4136-A305-B57B6ADADAD4} = {82FF0628-942E-438C-9477-6336975A7046}
+		{77CB9CE8-6F55-4C51-B147-6B9364DD5C57} = {82FF0628-942E-438C-9477-6336975A7046}
+		{53574B84-C390-4E73-AE2F-F122FD4D0BB5} = {82FF0628-942E-438C-9477-6336975A7046}
+		{E2E0770E-B3C8-424E-872F-4711DF846782} = {82FF0628-942E-438C-9477-6336975A7046}
+		{3DEFE23F-64E6-442D-8DED-87BA538625EC} = {82FF0628-942E-438C-9477-6336975A7046}
+		{5A5D954A-3A0E-4F72-B943-43342687E0F8} = {AA85F972-FF13-47AB-9320-B206360FE267}
+		{7075CB38-A570-4894-AC65-DF2634D2866A} = {AA85F972-FF13-47AB-9320-B206360FE267}
+		{1DA19031-A66B-4DA2-8619-33E4F20B2E01} = {82FF0628-942E-438C-9477-6336975A7046}
+		{0872B9EF-2BE7-4484-9925-856F924BC530} = {82FF0628-942E-438C-9477-6336975A7046}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://app-lan-scm-01:8081/tfs/productioncode
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Application\\Appius.MOCompute.Web.Prototype\\Appius.MOCompute.Web.Prototype.csproj
+		SccProjectTopLevelParentUniqueName1 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName1 = Application/Appius.MOCompute.Web.Prototype
+		SccLocalPath1 = Application\\Appius.MOCompute.Web.Prototype
+		SccProjectUniqueName2 = Framework\\Appius.Azure.Configuration\\Appius.Azure.Configuration.csproj
+		SccProjectTopLevelParentUniqueName2 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName2 = Framework/Appius.Azure.Configuration
+		SccLocalPath2 = Framework\\Appius.Azure.Configuration
+		SccProjectUniqueName3 = Framework\\Appius.Azure.Data\\Appius.Azure.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName3 = Framework/Appius.Azure.Data
+		SccLocalPath3 = Framework\\Appius.Azure.Data
+		SccProjectUniqueName4 = Framework\\Appius.Azure.Storage\\Appius.Azure.Storage.csproj
+		SccProjectTopLevelParentUniqueName4 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName4 = Framework/Appius.Azure.Storage
+		SccLocalPath4 = Framework\\Appius.Azure.Storage
+		SccProjectUniqueName5 = Framework\\Appius.Azure\\Appius.Azure.csproj
+		SccProjectTopLevelParentUniqueName5 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName5 = Framework/Appius.Azure
+		SccLocalPath5 = Framework\\Appius.Azure
+		SccProjectUniqueName6 = Framework\\Appius.Core\\Appius.Core.csproj
+		SccProjectTopLevelParentUniqueName6 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName6 = Framework/Appius.Core
+		SccLocalPath6 = Framework\\Appius.Core
+		SccProjectUniqueName7 = Framework\\Appius.MOCompute.Client.Prototype\\Appius.MOCompute.Client.Prototype.csproj
+		SccProjectTopLevelParentUniqueName7 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName7 = Framework/Appius.MOCompute.Client.Prototype
+		SccLocalPath7 = Framework\\Appius.MOCompute.Client.Prototype
+		SccProjectUniqueName8 = Framework\\Appius.MOCompute.Services.Prototype\\Appius.MOCompute.Services.Prototype.csproj
+		SccProjectTopLevelParentUniqueName8 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName8 = Framework/Appius.MOCompute.Services.Prototype
+		SccLocalPath8 = Framework\\Appius.MOCompute.Services.Prototype
+		SccProjectUniqueName9 = Framework\\Appius.Mvc\\Appius.Mvc.csproj
+		SccProjectTopLevelParentUniqueName9 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName9 = Framework/Appius.Mvc
+		SccLocalPath9 = Framework\\Appius.Mvc
+		SccProjectUniqueName10 = Tests\\Appius.MOCalculator.Web.Prototype\\Appius.MOCalculator.Web.Prototype.csproj
+		SccProjectTopLevelParentUniqueName10 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName10 = Tests/Appius.MOCalculator.Web.Prototype
+		SccLocalPath10 = Tests\\Appius.MOCalculator.Web.Prototype
+		SccProjectUniqueName11 = Tests\\Appius.MOCompute.UnitTests\\Appius.MOCompute.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName11 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName11 = Tests/Appius.MOCompute.UnitTests
+		SccLocalPath11 = Tests\\Appius.MOCompute.UnitTests
+		SccProjectUniqueName12 = Framework\\Appius.MOCompute.Services.Client.Prototype\\Appius.MOCompute.Services.Client.Prototype.csproj
+		SccProjectTopLevelParentUniqueName12 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName12 = Framework/Appius.MOCompute.Services.Client.Prototype
+		SccLocalPath12 = Framework\\Appius.MOCompute.Services.Client.Prototype
+		SccProjectUniqueName13 = Framework\\Appius.Azure.Storage.Client\\Appius.Azure.Storage.Client.csproj
+		SccProjectTopLevelParentUniqueName13 = Appius.MO.Compute.Web.Prototype.sln
+		SccProjectName13 = Framework/Appius.Azure.Storage.Client
+		SccLocalPath13 = Framework\\Appius.Azure.Storage.Client
+	EndGlobalSection
+EndGlobal

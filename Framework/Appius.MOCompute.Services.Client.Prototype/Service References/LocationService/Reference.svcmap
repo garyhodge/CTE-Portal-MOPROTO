@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="192a5158-fdec-48ad-8932-3e40080c8240" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://proto.ctemo.appius.co.uk/Services/LocationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LocationService.xsd" MetadataType="Schema" ID="09921962-5e33-4592-9089-4ca5144d422b" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/LocationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LocationService.wsdl" MetadataType="Wsdl" ID="6e7d0d02-1e5d-45aa-9d87-45da995e480f" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/LocationService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="LocationService1.xsd" MetadataType="Schema" ID="54be07f4-d44b-4415-b1ce-5f7565ae1fdf" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/LocationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LocationService2.xsd" MetadataType="Schema" ID="7c3cdcc4-a14b-4e5e-adbb-31bc9c5fd050" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/LocationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LocationService.disco" MetadataType="Disco" ID="29041a0e-f7c3-4ed8-bfdb-7786af725fe9" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/LocationService.svc?disco" />
+    <MetadataFile FileName="LocationService1.wsdl" MetadataType="Wsdl" ID="4666b575-6c52-4645-acbb-3cc78a696183" SourceId="1" SourceUrl="http://proto.ctemo.appius.co.uk/Services/LocationService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
